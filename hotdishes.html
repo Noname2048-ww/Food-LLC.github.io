@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Горячие блюда - "Food,LLC"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <h1>"Food,LLC"</h1>
+                    </a>
+                    <p>
+                        <i class="bi bi-star-fill kosher-star"></i>
+                        <span>Традиционная восточная кухня</span>
+                    </p>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="index.html">
+                                <span class="bi bi-house-door"></span><br>Главная
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="soups.html">
+                                <span class="bi bi-cup-hot"></span><br>Супы
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="salads.html">
+                                <span class="bi bi-egg-fried"></span><br>Салаты
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="hot.html">
+                                <span class="bi bi-fire"></span><br>Горячее
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="desserts.html">
+                                <span class="bi bi-heart"></span><br>Десерты
+                            </a>
+                        </li>
+                        <li class="nav-item hidden-xs">
+                            <a class="nav-link" href="index.html">
+                                <span class="bi bi-house-door"></span> Главная
+                            </a>
+                        </li>
+                        <li class="nav-item hidden-xs">
+                            <a class="nav-link" href="index.html#menu-categories">
+                                <span class="bi bi-list"></span> Меню
+                            </a>
+                        </li>
+                        <li id="phone" class="nav-item hidden-xs">
+                            <a class="nav-link" href="tel:+77771234567">
+                                <span>+7 (777) 123-45-67</span>
+                            </a>
+                            <div>* Мы доставляем</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a href="tel:+77771234567">
+            <span class="bi bi-telephone-fill"></span>
+            +7 (777) 123-45-67
+        </a>
+    </div>
+
+    <div id="main-content" class="container">
+        <h2 class="text-center page-title">
+            <i class="bi bi-fire"></i> Горячие блюда
+        </h2>
+        <p class="text-center subtitle">Сытные и ароматные блюда восточной кухни</p>
+
+        <div class="row">
+            <!-- Плов -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item bestseller">
+                    <div class="menu-item-image">
+                        <img src="https://images.gastronom.ru/vS3eDA6DMddFCsm2Bv0P1yuw1SOCkmLYhYTJo53SwZo/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzU2OTU3OTRkLTZiYmEtNGI1YS05ZWM1LWViZDVkZWE4MGEyNy5qcGc.webp" alt="Плов">
+                        <div class="item-badge">ХИТ ПРОДАЖ</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Плов узбекский</h3>
+                        <p class="menu-item-description">
+                            Классический плов с бараниной, морковью и рисом. Готовится в казане по традиционному рецепту. 
+                            Мясо маринуется в специях, рис отбирается вручную. Варится на медленном огне с добавлением 
+                            зиры, барбариса и чеснока. Подается с салатом ачичук. Порция 400г.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                3500 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Шашлык -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item bestseller">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&h=400&fit=crop" alt="Шашлык">
+                        <div class="item-badge">ХИТ</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Шашлык из баранины</h3>
+                        <p class="menu-item-description">
+                            Сочное мясо на углях с дымком. Маринуется в течение суток в специальном маринаде 
+                            с луком и специями. Жарится на мангале из натуральных углей. 
+                            Подается с кольцами лука, зеленью и лавашом. Порция 400г (6-7 кусочков).
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                4200 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Манты -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://i.obozrevatel.com/food/recipemain/2019/1/9/125.jpg?size=375x250" alt="Манты">
+                        <div class="item-badge">H3</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Манты с мясом <span class="special-badge">ПОПУЛЯРНОЕ</span></h3>
+                        <p class="menu-item-description">
+                            Паровые пельмени с сочной начинкой. Подаются со сметаной и зеленью. 
+                            Тесто готовится вручную, начинка из рубленого мяса с луком. 
+                            Готовятся на пару в специальной мантоварке. 6 штук в порции.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                2800 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Дымляма -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600&h=400&fit=crop" alt="Дымляма">
+                        <div class="item-badge">H4</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Дымляма</h3>
+                        <p class="menu-item-description">
+                            Тушеное мясо с овощами в казане. Нежное, томленое блюдо. 
+                            Готовится слоями: мясо, картофель, морковь, капуста, помидоры. 
+                            Тушится в собственном соку без добавления воды. Подается прямо в казане.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                3200 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Самса -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.gastronom.ru/U6s74OBBTePYtiFvVgzM1wqI1581cMlIXQ5xD4sgtog/pr:recipe-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzhmNmY1ODI1LThkYzctNDczYS04NWJiLTUyNDQyMjU1YWMyZC5qcGc" alt="Самса">
+                        <div class="item-badge">H5</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Самса </h3>
+                        <p class="menu-item-description">
+                            Слоеные пирожки с мясом, запеченные в тандыре. Хрустящее тесто, сочная начинка. 
+                            Начинка из рубленой баранины с курдючным жиром и луком. 
+                            Выпекается в настоящем узбекском тандыре. 3 штуки в порции.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                1800 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Лагман жареный -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://img.iamcook.ru/2018/upl/recipes/cat/u-be7fa4f2d632b7e8e0e1b4bd326cb8d2.jpg" alt="Лагман жареный">
+                        <div class="item-badge">H6</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Лагман жареный (Ганфан)</h3>
+                        <p class="menu-item-description">
+                            Жареная лапша с мясом и овощами. Лапша вытягивается вручную, 
+                            затем обжаривается в воке с мясом, болгарским перцем, помидорами и специями. 
+                            Получается ароматное блюдо с легкой остринкой. Большая порция.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                2900 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Бешбармак -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://multivarka-receptik.ru/wp-content/uploads/2022/10/beshbarmak-reczept-klassicheskij.jpg" alt="Бешбармак">
+                        <div class="item-badge">H7</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Бешбармак</h3>
+                        <p class="menu-item-description">
+                            Традиционное казахское блюдо. Отварное мясо с домашней лапшой и луковым соусом. 
+                            Мясо варится с добавлением специй до мягкости. 
+                            Подается с лапшой широкой нарезки и бульоном отдельно. Щедрая порция для гурманов.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                3800 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Куйрык-Боор -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop" alt="Куйрык-Боор">
+                        <div class="item-badge">H8</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Стейк <span class="special-badge">ДЛЯ ГУРМАНОВ</span></h3>
+                        <p class="menu-item-description">
+                            Это изысканное блюдо представляет собой толстый кусок мраморной говядины, приготовленный на открытом огне с добавлением специй.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">
+                                3400 <span>₸</span>
+                            </div>
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i> Заказать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Часы работы:</span><br>
+                    Пн-Чт: 11:00 - 23:00<br>
+                    Пт-Сб: 11:00 - 01:00<br>
+                    Вс: 11:00 - 23:00<br>
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Адрес:</span><br>
+                    7105 ул. Абая<br>
+                    Алматы, Казахстан<br>
+                    <p>* Доставка в радиусе 3-4 км</p>
+                </section>
+                <section id="contact" class="col-sm-4">
+                    <span>Контакты:</span><br>
+                    Тел: +7 (777) 123-45-67<br>
+                    Email: info@vkusy-vostoka.kz<br>
+                </section>
+            </div>
+            <div class="copyright text-center">
+                &copy; Copyright Вкусы Востока 2024
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

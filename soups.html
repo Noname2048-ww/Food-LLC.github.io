@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Супы - "Food,LLC"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <h1>"Food,LLC"</h1>
+                    </a>
+                    <p>
+                        <i class="bi bi-star-fill kosher-star"></i>
+                        <span>Традиционная восточная кухня</span>
+                    </p>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="index.html">
+                                <span class="bi bi-house-door"></span><br>Главная
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="soups.html">
+                                <span class="bi bi-cup-hot"></span><br>Супы
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="salads.html">
+                                <span class="bi bi-egg-fried"></span><br>Салаты
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="hotdishes.html">
+                                <span class="bi bi-fire"></span><br>Горячее
+                            </a>
+                        </li>
+                        <li class="nav-item visible-xs">
+                            <a class="nav-link text-center" href="desserts.html">
+                                <span class="bi bi-heart"></span><br>Десерты
+                            </a>
+                        </li>
+                        <li class="nav-item hidden-xs">
+                            <a class="nav-link" href="index.html">
+                                <span class="bi bi-house-door"></span> Главная
+                            </a>
+                        </li>
+                        <li class="nav-item hidden-xs">
+                            <a class="nav-link" href="index.html#menu-categories">
+                                <span class="bi bi-list"></span> Меню
+                            </a>
+                        </li>
+                        <li id="phone" class="nav-item hidden-xs">
+                            <a class="nav-link" href="tel:+77771234567">
+                                <span>+7 (777) 123-45-67</span>
+                            </a>
+                            <div>* Мы доставляем</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a href="tel:+77771234567">
+            <span class="bi bi-telephone-fill"></span>
+            +7 (777) 123-45-67
+        </a>
+    </div>
+
+    <div id="main-content" class="container">
+        <h2 class="text-center page-title">
+            <i class="bi bi-cup-hot"></i> Супы
+        </h2>
+        <p class="text-center subtitle">Ароматные супы из свежих ингредиентов</p>
+
+        <div class="row">
+            <!-- Шурпа -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item bestseller">
+                    <div class="menu-item-image">
+                        <img src="https://www.russianfood.com/dycontent/images_upl/362/big_361362.jpg" alt="Шурпа">
+                        <div class="item-badge">ХИТ</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Шурпа</h3>
+                        <p class="menu-item-description">
+                            Ароматный суп с бараниной и овощами по традиционному рецепту. Готовится в течение 4 часов на медленном огне. Подается с зеленью и лавашом.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">1200 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Лагман -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item bestseller">
+                    <div class="menu-item-image">
+                        <img src="https://img.iamcook.ru/2018/upl/recipes/cat/u-be7fa4f2d632b7e8e0e1b4bd326cb8d2.jpg" alt="Лагман">
+                        <div class="item-badge">ХИТ</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Лагман</h3>
+                        <p class="menu-item-description">
+                            Наваристый лагман с домашней лапшой и сочным мясом. Лапша вытягивается вручную нашими поварами. Подается в глубокой тарелке с бульоном.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">1300 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Борщ -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://primebeef.ru/images/cms/data/3-501.jpg" alt="Борщ">
+                        <div class="item-badge">S3</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Борщ</h3>
+                        <p class="menu-item-description">
+                            Классический борщ с говядиной, свеклой и свежей зеленью. Подается со сметаной и чесночными пампушками. Насыщенный красный цвет и богатый вкус.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">1100 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Суп с фрикадельками -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://cdn.7days.ru/pic/f59/979572/1430151/86.jpg" alt="Суп с фрикадельками">
+                        <div class="item-badge">S4</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Суп с фрикадельками</h3>
+                        <p class="menu-item-description">
+                            Легкий суп с сочными мясными фрикадельками и овощами. Фрикадельки готовятся из свежего мяса с добавлением лука и специй. Идеален для детей.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">1000 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Куриный суп -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://www.russianfood.com/dycontent/images_upl/208/big_207102.jpg" alt="Куриный суп">
+                        <div class="item-badge">S5</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Куриный суп</h3>
+                        <p class="menu-item-description">
+                            Нежный суп на курином бульоне с домашней лапшой. Бульон варится из домашней курицы в течение 3 часов. Прозрачный, ароматный и очень полезный.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">950 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Овощной суп -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop" alt="Овощной суп">
+                        <div class="item-badge">S6</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Овощной суп <span class="special-badge">ПОЛЕЗНОЕ</span></h3>
+                        <p class="menu-item-description">
+                            Легкий и полезный суп с сезонными овощами и зеленью. Без мяса, идеален для вегетарианцев. Содержит морковь, картофель, помидоры, капусту и зелень.
+                        </p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">900 <span>₸</span></div>
+                            <button class="order-btn"><i class="bi bi-cart-plus"></i> Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Часы работы:</span><br>
+                    Пн-Чт: 11:00 - 23:00<br>
+                    Пт-Сб: 11:00 - 01:00<br>
+                    Вс: 11:00 - 23:00<br>
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Адрес:</span><br>
+                    7105 ул. Абая<br>
+                    Алматы, Казахстан<br>
+                    <p>* Доставка в радиусе 3-4 км</p>
+                </section>
+                <section id="contact" class="col-sm-4">
+                    <span>Контакты:</span><br>
+                    Тел: +7 (777) 123-45-67<br>
+                    Email: info@vkusy-vostoka.kz<br>
+                </section>
+            </div>
+            <div class="copyright text-center">
+                &copy; Copyright Вкусы Востока 2024
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
